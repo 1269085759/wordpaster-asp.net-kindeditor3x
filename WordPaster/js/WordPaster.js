@@ -380,7 +380,7 @@ function WordPasterManager()
 	};
 
     //加载粘贴事件	
-	this.LoadPasteEvent = function (edt)
+	this.LoadPasteEvent = function (id)
 	{
 	    KE.event.add(KE.g[id].iframeDoc.body, 'paste', function (e)
 	    {
